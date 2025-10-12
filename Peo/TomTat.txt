@@ -1,0 +1,44 @@
+TỔNG HỢP NHẬN ĐỊNH TIỀN XỬ LÝ DỮ LIỆU
+
+1. Các cột ít thông tin – nên loại bỏ
+cols_to_drop = [
+    # SALES ITEM
+    "is_deleted",
+    "last_sync_date",
+    "sync_error_message",
+    "image_url",
+    "description_new",
+    "weight",
+    "sync_status_id",
+    "p_id",
+    "item_id",
+    "category_l1_id",
+    "category_l2_id",
+    "category_l3_id",
+    "category_id",
+    "description",
+    "manufacturer",
+    "created_date",
+    "updated_date",
+
+    # SALES PURCHASE
+    "is_deleted",
+    "event_type",
+    "user_id",
+    "item_id",
+    "customer_id",
+    "created_date",
+    "updated_date",
+
+    # SALES USER
+    "is_deleted",
+    "sync_status_id",
+    "last_sync_date",
+    "sync_error_message",
+    "customer_id",
+    "user_id",
+    "created_date",
+    "updated_date"
+]
+
+2.
