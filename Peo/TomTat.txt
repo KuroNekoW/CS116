@@ -55,13 +55,10 @@ cols_to_drop = [
 #`region_province_combo` = `region` + `province`
 - `location_density` = số lượng user tại `location`
 
-###  Gợi ý rút trích đặc trưng
+###  Rút trích đặc trưng
 
 - **GroupBy + Count**: số lần mua theo item, user, brand
 
 - **Datetime features**: phân tích theo giờ, ngày, tuần
 
 - **Interaction features**: `price × discount_rate`
-
-
-Nếu bạn muốn mình viết code rút trích đặc trưng cụ thể cho Polars hoặc Pandas, mình có thể hỗ trợ ngay. Bạn muốn bắt đầu từ bảng nào trước?
