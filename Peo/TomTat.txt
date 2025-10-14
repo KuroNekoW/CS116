@@ -52,7 +52,6 @@ cols_to_drop = [
 
 ####  Từ `SALES USER`
 - `is_loyal` = `membership` == 'Premium'
-#`region_province_combo` = `region` + `province`
 - `location_density` = số lượng user tại `location`
 
 ###  Rút trích đặc trưng
